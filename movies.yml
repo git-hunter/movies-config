@@ -1,10 +1,10 @@
 movie:
- directory: /tmp/movies
- file-pattern: "*.txt"
- prevent-duplicates: true
- fixed-delay: 5000
+  directory: C:\\tmp\\movies
+  file-pattern: "*.txt"
+  prevent-duplicates: true
+  fixed-delay: 5000
 logging:
- level:
- com:
- apress:
- cloud: INFO
+  level:
+    com:
+      apress:
+        cloud: INFO
