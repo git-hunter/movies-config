@@ -13,7 +13,7 @@ def connection = new URL( "https://movies-tv-shows-database.p.rapidapi.com/?movi
 
 connection.setRequestProperty( 'Type', 'get-movie-details')
 connection.setRequestProperty( 'x-rapidapi-host', 'movies-tv-shows-database.p.rapidapi.com' )
-connection.setRequestProperty( 'x-rapidapi-key', '7279d15fb8mshb3f908bf55c57cdp17f62fjsn495f2bb21907')  //<-- Change Me
+connection.setRequestProperty( 'x-rapidapi-key', '7279d15fb8mshb3f908bf55c57cdp17f62fjsn495f2bb219071928')  //<-- Change Me
 connection.setRequestProperty( 'Accept', 'application/json' )
 connection.setRequestProperty( 'Content-Type', 'application/json')
 
